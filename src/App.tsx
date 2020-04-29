@@ -2,8 +2,9 @@ import React, { useEffect, useReducer } from 'react';
 import './App.css';
 import { Form } from './components/main/form';
 
-import { SheetResponse } from './services/api/googleSheets/types/response'
-import { gapi } from './services/api/googleSheets'
+import './services/gapi/index'
+import { SheetResponse } from './services/gapi/googleSheets/types/response'
+import { gapi } from './services/gapi/googleSheets'
 import sheetsConfig from './config/apiKeys'
 import {initialSheets, sheetReducer} from './reducers/sheetReducer'
 
