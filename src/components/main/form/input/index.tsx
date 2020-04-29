@@ -3,9 +3,7 @@ import './styles.css'
 
 export const Input: React.FC = () => {
     return (
-        <input 
-        
-        />
+        <input />
     )
 }
 

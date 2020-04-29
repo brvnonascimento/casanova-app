@@ -4,6 +4,8 @@
   grid-template-rows: 100px 0.2fr 0.1fr 0.2fr auto 0.2fr 100px;
   height: 100vh;
   overflow: hidden;
+  box-sizing: border-box;
+  justify-items: center;
 }
 
 header {
@@ -14,18 +16,26 @@ header {
   justify-self: center; */
 }
 
-main {
+/* main {
   grid-column-start: 2;
   grid-row-start: 2;
   grid-row-end: span 5;
-  /* overflow-x: hidden;
-  overflow-y: scroll; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+} */
+
+main {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  padding: 1rem;
 }
 
-Label {
-  grid-row-start: 2;
-  grid-column-start: 1;
+form {
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 ::webkit-scrollbar { 
   display: none; 
