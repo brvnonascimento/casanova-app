@@ -6,7 +6,7 @@ import './services/gapi/index'
 import { SheetResponse } from './services/gapi/googleSheets/types/response'
 import { gapi } from './services/gapi/googleSheets'
 import sheetsConfig from './config/apiKeys'
-import {initialSheets, sheetReducer} from './reducers/sheetReducer'
+import {initialSheets, sheetReducer} from './reducers/sheetReducer/'
 
 const { apiKey, clientId, discoveryDocs, spreadsheetId } = sheetsConfig
 
